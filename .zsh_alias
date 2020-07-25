@@ -1,0 +1,78 @@
+# Git (What could be more important?)
+
+alias gaa="git add -A"
+alias gcam=" git commit -a -m"
+alias gpush"git push"
+alias gpull="git pull"
+alias gpr="git pull -r"
+alias gs="git status"
+
+# Flutter
+
+alias fdoc="flutter doctor"
+alias frun="flutter run"
+alias femu="flutter emulators"
+
+# File System (ZSH/BASH)
+alias filesize="ls -alhS"
+
+# File system
+alias files="du -ahx . | sort -rh | head -5"
+
+# General
+
+alias c="clear"
+alias l="la -la"
+alias lss='ls -hlS'
+
+# Simluators
+
+alias simios="open -a Simulator"
+alias simdroid="echo 'TBI Soon... Check back later :("
+
+# ZSH & BASH
+alias zshu="vim ~/.zshrc"
+alias zshr="source ~/.zshrc"
+alias zsha="vim ~/.zsh_alias"
+
+# SSH
+
+alias keypath="cat $SSH_KEY_PATH"
+alias pubkey="cat ~/.ssh/id_rsa.pub"
+
+# Angular CLI
+
+alias ngs="ng serve"
+alias ngsp="ng serve --prod --aot"
+alias ngbp="ng build --prod --aot"
+alias ngu="ng upgrade"
+
+#Ionic
+
+alias ionbp="ionic build --prod"
+alias ionaot="ionic build --prod --aot"
+alias ionup="ionic serve"
+
+# Web
+
+alias ipinfo="ifconfig | grep inet"
+alias ipwired="ipconfig getifaddr en0"
+alias iplocal="ipconfig getifaddr en1"
+alias ipexternal="curl ipecho.net/plain ; echo"
+
+# GPG
+
+alias gpglks="gpg --list-secret-keys"
+alias gpgi="gpg --import"
+alias gpglk="gpg --list-keys"
+
+# See aliases
+
+alias palias="cat ~/.zsh_alias"
+
+
+
+
+
+
+
